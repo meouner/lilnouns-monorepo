@@ -8,9 +8,9 @@ const Banner = () => {
     <Section fullWidth={false} className={classes.bannerSection}>
         <div className={classes.wrapper}>
           <h1 style={{textAlign:'center'}}>
-            ONE LIL NOUN,
+            ONE MEOUN,
             <br />
-            EVERY 15 MINUTES,
+            EVERY 69 MINUTES,
             <br />
             FOREVER.
           </h1>
