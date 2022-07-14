@@ -35,8 +35,8 @@ export async function resolveEnsOrFormatAddress(address: string) {
  */
 export function formatAuctionStartedTweetText(auctionId: number) {
   return `＊Lil Bleep Bloop Blop＊
-        
- An auction has started for Lil Noun #${auctionId}
+
+ An auction has started for Meoun #${auctionId}
  Learn more at https://lilnouns.wtf`;
 }
 
