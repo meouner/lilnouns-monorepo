@@ -25,56 +25,56 @@ const NouniversePage = () => {
 
   useEffect(() => {
     switch (id) {
-      case "altnouns": 
+      case "altnouns":
       setImage(altnouns)
       setTitle("Alt Nouns")
       break;
 
-      case "boneys": 
+      case "boneys":
       setImage(boneys)
       setTitle("Boneys")
       break;
 
-      case "borednoungang": 
+      case "borednoungang":
       setImage(borednoungang)
       setTitle("Bored Noun Gang")
       break;
 
-      case "gnars": 
+      case "gnars":
       setImage(gnars)
       setTitle("Gnars DAO")
       break;
 
-      case "hypercosplay": 
+      case "hypercosplay":
       setImage(hypercosplay)
       setTitle("Hyper Cosplay")
       break;
 
-      case "lostnouns": 
+      case "lostnouns":
       setImage(lostnouns)
       setTitle("Lost Nouns")
       break;
 
-      case "nouncats": 
+      case "nouncats":
       setImage(nouncats)
       setTitle("Noun Cats")
       break;
 
-      case "nounpunks": 
+      case "nounpunks":
       setImage(nounpunks)
       setTitle("Noun Punks")
       break;
 
-      case "nounsdao": 
+      case "nounsdao":
       setImage(nounsdao)
       setTitle("Nouns DAO")
       break;
 
-      case "sharkdao": 
+      case "sharkdao":
       setImage(sharkdao)
       setTitle("Shark DAO")
       break;
-    
+
       default:
         setIsNouniverseProject(false)
         // setTitle("Nouniverse POAP")
@@ -82,7 +82,7 @@ const NouniversePage = () => {
         break;
     }
   }, [id])
-  
+
 
 
   return (
@@ -107,9 +107,9 @@ const NouniversePage = () => {
             <Row>
               <Col>
                 {!isNouniverseProject? (
-                  "Lil Nouns wouldn't be where it is today if it wasn't for the inspirational and welcoming nature of all nouniverse communities. As a thank you, we've attributed dedicated server roles for most communities. Self-assign and show your nounish affinity! They may even come with their own POAP 👀"
+                  "Meouns wouldn't be where it is today if it wasn't for the inspirational and welcoming nature of all nouniverse communities. As a thank you, we've attributed dedicated server roles for most communities. Self-assign and show your nounish affinity! They may even come with their own POAP 👀"
                 ): (
-                  `Lil Nouns wouldn't be where it is today if it wasn't for the inspirational and welcoming nature of nouniverse communities like ${title}. As a thank you, we've attributed a dedicated server role for all ${title} members. Self-assign and show your nounish affinity! They may even come with their own commemorative Lil Nouns x ${title} POAP 👀`
+                  `Meouns wouldn't be where it is today if it wasn't for the inspirational and welcoming nature of nouniverse communities like ${title}. As a thank you, we've attributed a dedicated server role for all ${title} members. Self-assign and show your nounish affinity! They may even come with their own commemorative Meouns x ${title} POAP 👀`
                   )}
               </Col>
             </Row>

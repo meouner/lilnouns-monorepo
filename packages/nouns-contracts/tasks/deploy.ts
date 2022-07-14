@@ -34,7 +34,7 @@ task('deploy', 'Deploys NFTDescriptor, NounsDescriptor, NounsSeeder, and NounsTo
   .addOptionalParam('auctionTimeBuffer', 'The auction time buffer (seconds)', 1.5 * 60, types.int) //Default ever 24 hrs Revised: every 15 minutes
   .addOptionalParam('auctionReservePrice', 'The auction reserve price (wei)', 1, types.int)
   .addOptionalParam('auctionMinIncrementBidPercentage', 'The auction min increment bid percentage (out of 100)', 5, types.int,)
-  .addOptionalParam('auctionDuration', 'The auction duration (seconds)', 60 * 60 * 0.25, types.int) // Default: 1 day Revised: 15 minutes
+  .addOptionalParam('auctionDuration', 'The auction duration (seconds)', 60 * 60 * 1.15, types.int) // Default: 1 day Revised: 69 minutes
 
   .addOptionalParam('timelockDelay', 'The timelock delay (seconds)', 60 * 60 * 24 * 2, types.int) // Default: 2 days
 
@@ -69,7 +69,7 @@ task('deploy', 'Deploys NFTDescriptor, NounsDescriptor, NounsSeeder, and NounsTo
     console.log(`expectedAuctionHouseProxyAddress = ${expectedAuctionHouseProxyAddress}`)
     console.log(`expectedNounsDAOProxyAddress = ${expectedNounsDAOProxyAddress}`)
 
-    
+
     const NounsDescriptorAddress = '0x11fb55d9580CdBfB83DE3510fF5Ba74309800Ad1'
     const NounsSeederAddress = '0xCC8a0FB5ab3C7132c1b2A0109142Fb112c4Ce515'
 

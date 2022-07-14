@@ -10,16 +10,16 @@ const NounersPage = () => {
       <Col lg={{ span: 6, offset: 3 }}>
 
         <Row className={classes.headerRow}>
-          <span>Lil Nouners</span>
-          <h1>Welcome, Lil Nouner!</h1>
+          <span>Meouners</span>
+          <h1>Welcome, Meouner!</h1>
         </Row>
-     
+
         <Row style={{ marginBottom: '0rem' }}>
           <Image src={banner_image} fluid />
         </Row>
         <br />
         <br />
-                
+
         <Row className={classes.pictureCard}>
           <Col lg={8} className={classes.treasuryAmtWrapper}>
             <Row className={classes.headerRow}>
@@ -27,7 +27,7 @@ const NounersPage = () => {
             </Row>
             <Row>
               <Col>
-                So you just won a lil noun.... Cool! Be sure to go over how everything works and head over to our discord server to verify your lil noun! If you were already a member of the server, you have to leave and re-enter
+                So you just won a Meoun.... Cool! Be sure to go over how everything works and head over to our discord server to verify your Meoun! If you were already a member of the server, you have to leave and re-enter
               </Col>
             </Row>
           </Col>
@@ -40,7 +40,7 @@ const NounersPage = () => {
             </div>
           </Col>
         </Row>
-    
+
 
         <Col>
           {/* <h2> Getting Started</h2>
@@ -65,14 +65,14 @@ const NounersPage = () => {
           </Col>
           <br />
 
-          <h3>Lil Nouns DAO</h3>
+          <h3>Meouns DAO</h3>
           <Col style={{ textAlign: 'justify' }}>
-            These are channels where only Lil Nouns DAO members can post. In the spirit of having an open
+            These are channels where only Meouns DAO members can post. In the spirit of having an open
             and collaborative environment, all of these channels (except for #nouner-private) are
             viewable by the public.
           </Col>
           <br />
-          
+
           <a
             href={`https://discord.com/channels/954142017556979752/954142017556979755`}
             target="_blank"
@@ -83,7 +83,7 @@ const NounersPage = () => {
           </a>
           <Col style={{ textAlign: 'justify' }}>
             This is where most communication between members occurs. Anything that doesn't fit in
-            the other Lil Nouner channels likely goes here.
+            the other Meouner channels likely goes here.
           </Col>
           <br />
 
@@ -137,7 +137,7 @@ const NounersPage = () => {
             When a project passes an on-chain vote, the creator of that proposal will often be given
             their own channel in this section to answer questions and share updates on the status of
             their work. This is a constantly expanding list - for more information on each of these,
-            check out the DAO section of the Lil Nouns website.
+            check out the DAO section of the Meouns website.
           </Col>
           <br />
 
@@ -185,12 +185,12 @@ const NounersPage = () => {
             #voice-private
           </a>
           <Col style={{ textAlign: 'justify' }}>
-            This is for the Lil Nouns DAO Members Weekly Town Hall call (date and time TBD)
+            This is for the Meouns DAO Members Weekly Town Hall call (date and time TBD)
             Proposal Process: to be done - info on how a proposal is born, gets vetted, gets
-            enacted, and how Lil Nouners can help
+            enacted, and how Meouners can help
           </Col>
           <br />
-          
+
       </Col>
     </Section>
   );

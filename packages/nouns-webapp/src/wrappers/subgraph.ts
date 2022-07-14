@@ -125,7 +125,7 @@ export const nounsIndex = () => gql`
   }
 `;
 
-// Subgraph queries are limited by 1000. 
+// Subgraph queries are limited by 1000.
 // As a result, site doesn't load auction when user attempts to fetch lil noun ids < latest 1000.
 // To ensure lil noun Ids < latest 1000 are fetchable, fetch backwards by 1000 using given lil noun auction startTime.
 export const latestAuctionsQuery = (auctionStartTime: number) => gql`
@@ -191,7 +191,7 @@ export const latestBidsQuery = (first: number = 10) => gql`
 		settled
 	  }
 	}
-  }  
+  }
 `;
 
 export const nounVotingHistoryQuery = (nounId: number) => gql`
@@ -225,7 +225,7 @@ export const proposalVotesQuery = (proposalId: string) => gql`
       voter {
         id
       }
-    }	
+    }
   }
 `;
 
@@ -245,4 +245,3 @@ export const clientFactory = (uri: string) =>
     uri,
     cache: new InMemoryCache(),
   });
-  
